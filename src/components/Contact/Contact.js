@@ -49,8 +49,8 @@ const Contact = () => {
             <div className="links">
                 <a target='blank' href='https://github.com/Praveen-Shakya?tab=overview&from=2025-01-01&to=2025-01-31'><img src={assets.Github} alt="FaceBook" className="link"/></a> 
                 <a href="https://www.linkedin.com/in/praveen-shakya-7b22562ba/" target='blank'><img src={assets.linkedIn} alt="Twitter" className="link" /></a>
-                <a href="https://x.com" target='blank'><img src={assets.TwitterIcon} alt="Youtube" className="link" /></a>
-                <img src={assets.InstagramIcon} alt="Instagram" className="link" />
+                <a href="https://x.https://twitter.com/Praveen Shakya" target='blank'><img src={assets.TwitterIcon} alt="Youtube" className="link" /></a>
+                <a href="https://www.instagram.com/psyhco_praveen/"><img src={assets.InstagramIcon} alt="Instagram" className="link" /></a>
             </div>
         </form>
       </div>

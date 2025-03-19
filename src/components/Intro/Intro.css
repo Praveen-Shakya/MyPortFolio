@@ -9,7 +9,7 @@
 .bg{
     position: absolute;
     top: 0rem;
-    right: 2rem;
+    right: 3rem;
     z-index: -1;
     object-fit: cover;
     height: 100vh;
@@ -74,5 +74,23 @@
         right: -40vw;
         top: -2em;
         height: 80vh;
+    }
+}
+
+@media screen and (max-width:600px){
+    .bg{
+        right: -35vw;
+        top: 0rem;
+        height: 80vh;
+        /* width: 30rem; */
+    }
+    .intro{
+        height: calc(100vh - 13rem);
+        /* margin: 0; */
+    }
+    .introPara{
+        /* color: rgb(241, 241, 76); */
+        font-size: 20px;
+        font-weight: 500;
     }
 }
