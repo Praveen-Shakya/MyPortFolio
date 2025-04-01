@@ -1,6 +1,6 @@
 #contactPage{
     min-height: calc(100vh - 4rem);
-    width: 100vw;
+    width: 80%;
     max-width: 60rem;
     margin: 0 auto;
     text-align: center;
@@ -8,38 +8,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    animation: fadeSlide 1s ease-in-out;
 }
 
 .contactPageTitle{
-    font-size: 3rem;
+    font-size: 2.2rem;
+    font-weight: 500;
+    letter-spacing: 0.05rem;
     margin-bottom: 1rem;
 }
-
-.clientDesc{
-    font-weight: 300;
-    font-size: 1rem;
-}
-
-.clientImgs{
-    margin: 1rem 0;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.clientImg{
-    object-fit: cover;
-    width: 23%;
-    height: 100px;
-    min-width: 9rem;
-    margin: auto;
-    padding: 0.25rem;
-    border-radius: 10px;
-}
-
-.clients{
-    padding: 2rem;
-}
-
 .contactDesc{
     padding: 1rem;
     font-size: medium;
@@ -52,7 +29,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 90vw;
+    width: 100%;
     max-width: 60rem;
 }
 
@@ -85,17 +62,13 @@
     height: 2.8rem;
     width: 2.8rem;
     margin: 0 0.75rem;
-    border: 1.5px solid yellow;
     border-radius: 50%;
-    padding: 2px;
+    padding: 1px;
+    transition: transform 0.2s ease-in-out;
 }
 
 .link:hover{
-    background-color: transparent;
-    border: none;
-    padding: 0;
-    height: 3rem;
-    width: 3rem;
+    transform: scale(1.2);
 }
 
 .bold{
@@ -103,7 +76,7 @@
     color: yellow;
 }
 
-@media screen and (max-width:700px){
+/* @media screen and (max-width:700px){
     .clientImgs{
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -113,4 +86,4 @@
     .clientImg{
         width: 90%;
     }
-}
+} */

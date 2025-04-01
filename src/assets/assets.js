@@ -20,6 +20,10 @@ import TwitterIcon from './twitter1.png';
 import Github from './Github1.png';
 import InstagramIcon from './instagram1.png';
 import menu from './menu.png';
+import Me from './MyPhoto.png';
+import FoodPanda from './FoodPandaImg.png';
+import ChatApp from './ChatAppImg.jpeg';
+import CollegeWebsite from './CollegeWebsiteImg.png'
 
 export const assets = {
     logo,
@@ -43,5 +47,9 @@ export const assets = {
     TwitterIcon,
     Github,
     InstagramIcon,
-    menu
+    menu,
+    Me,
+    FoodPanda,
+    ChatApp,
+    CollegeWebsite
 }
