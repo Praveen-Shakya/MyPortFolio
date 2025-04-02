@@ -87,7 +87,7 @@ const Navbar = () => {
         </Link>
         <Link
           activeClass="active"
-          to="skills"
+          to="about-me-section"
           spy={true}
           smooth={true}
           offset={-50}
@@ -100,7 +100,7 @@ const Navbar = () => {
         </Link>
         <Link
           activeClass="active"
-          to="works"
+          to="skills-container"
           spy={true}
           smooth={true}
           offset={-50}
@@ -108,11 +108,11 @@ const Navbar = () => {
           className="listItem"
           onClick={() => setShowMenu(false)}
         >
-          PortFolio
+          Skills
         </Link>
         <Link
           activeClass="active"
-          to="clients"
+          to="projects-container"
           spy={true}
           smooth={true}
           offset={-50}
@@ -120,7 +120,7 @@ const Navbar = () => {
           className="listItem"
           onClick={() => setShowMenu(false)}
         >
-          Clients
+          Projects
         </Link>
         <Link
           activeClass="active"

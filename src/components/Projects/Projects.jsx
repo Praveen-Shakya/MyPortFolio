@@ -14,7 +14,7 @@ const projects = [
     title: "Chat-App",
     image: `${assets.ChatApp}`,
     technologies: "ReactJs, Redux, Redux-Toolkit, Web API, HTML, CSS",
-    github: "#",
+    github: "https://github.com/Praveen-Shakya/ChatApp",
     live: "#",
   },
   {

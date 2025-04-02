@@ -1,6 +1,6 @@
 import logo from './Logo (1).png'
 import contact from "./contact.png";
-import bgImg from './MyPhoto.png';
+import bgImg from './Praveen.image.jpg';
 import hire from './hireme.png';
 import UIDesign from './ui-design.png';
 import WebDesign from './website-design.png';
@@ -20,7 +20,7 @@ import TwitterIcon from './twitter1.png';
 import Github from './Github1.png';
 import InstagramIcon from './instagram1.png';
 import menu from './menu.png';
-import Me from './MyPhoto.png';
+import Me from './Praveen1.jpg';
 import FoodPanda from './FoodPandaImg.png';
 import ChatApp from './ChatAppImg.jpeg';
 import CollegeWebsite from './CollegeWebsiteImg.png'
