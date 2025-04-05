@@ -1,6 +1,7 @@
 import React from "react";
 import "./Projects.css";
 import { assets } from "../../assets/assets";
+import { image, title } from "framer-motion/client";
 
 const projects = [
   {
@@ -18,12 +19,19 @@ const projects = [
     live: "#",
   },
   {
-    title: "BIMT College Website",
+    title: "BIMT Institute",
     image: `${assets.CollegeWebsite}`,
     technologies: "React-Js, Next-Js, Javascript, TailwindCSS, HTML, CSS, Firebases",
     github: "#",
     live: "#",
   },
+  {
+    title: "Weather App",
+    image: `${assets.WeatherAppImg}`,
+    technologies: "JavaScript, Web-APIs, CSS, HTML",
+    github: "https://github.com/Praveen-Shakya/WeatherApp",
+    live: "https://weather-app-nine-weld-25.vercel.app/"
+  }
 ];
 
 const Projects = () => {

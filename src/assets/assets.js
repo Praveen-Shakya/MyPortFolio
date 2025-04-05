@@ -23,7 +23,8 @@ import menu from './menu.png';
 import Me from './Praveen1.jpg';
 import FoodPanda from './FoodPandaImg.png';
 import ChatApp from './ChatAppImg.jpeg';
-import CollegeWebsite from './CollegeWebsiteImg.png'
+import CollegeWebsite from './CollegeWebsiteImg.png';
+import WeatherAppImg from './WeatherAppImg.jpg';
 
 export const assets = {
     logo,
@@ -51,5 +52,6 @@ export const assets = {
     Me,
     FoodPanda,
     ChatApp,
-    CollegeWebsite
+    CollegeWebsite,
+    WeatherAppImg
 }
